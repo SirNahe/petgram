@@ -1,1 +1,4 @@
-console.log('Empezamos!')
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+ReactDOM.render('Hola mundo', document.getElementById('app'))
