@@ -9,7 +9,7 @@ module.exports = {
       template: 'src/index.html'
     })
   ],
-  module: [
+  module: {
     rules: [
       {
         test: /\.js$/,
@@ -22,5 +22,5 @@ module.exports = {
         }
       }
     ]
-  ]
+  }
 }
