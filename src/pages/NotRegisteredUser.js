@@ -3,12 +3,20 @@ import { Context } from '../Context'
 import { UserForm } from '../components/UserForm'
 import { RegisterMutation } from '../container/RegisterMutation'
 import { LoginMutation } from '../container/LoginMutation'
+import { Helmet } from 'react-helmet'
 
 export const NotRegisteredUser = () => {
   const { activateAuth } = useContext(Context)
 
   return (
     <>
+      <Helmet>
+        <title>Registro | Petgram 🐶 </title>
+        <meta
+          name='description'
+          content='Registráte en Petgram o inicia sesión'
+        />
+      </Helmet>
       <RegisterMutation>
         {(register, { data, loading, error }) => {
           const onSubmit = ({ email, password }) => {
