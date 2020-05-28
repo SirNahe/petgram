@@ -1,3 +1,16 @@
-# curso-platzi-react-avanzado ⚛️
+# Petgram
 
-Repositorio con el código del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)
+A PWA with pet photos.
+
+---
+
+## Technologies
+
+- React
+- Webpack
+- React Apollo
+- Express.JS
+
+---
+
+## Curso Platzi React Avanzado ⚛️
